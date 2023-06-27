@@ -1,0 +1,31 @@
+/* //reseting  formatting */
+*, *::bfore, *,::after{
+    box-sizing: border-box;
+}
+*{
+    margin:  0;
+    padding: 0;
+}
+
+/* addign our own formatting  */
+
+body{
+    padding: 4rem;
+    background: #18181b;
+    color: #f4f4f5;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+}
+
+h1, h2, h3, h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 0.25em;
+}
+p{
+    font-size: small;
+}
+footer{
+    position: fixed;
+    bottom: 2rem;
+    color: #d4d4d8;
+}
